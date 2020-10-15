@@ -8,15 +8,14 @@ let favoriteFood = "Pizza";
 
 var age = 21;
 
-// const iLoveJavascript = false;
+const iLoveJavascript = false;
 
-// let name = Yvonne;
+let name = Yvonne;
 
 /* ------------------------------ Complete the instructions below this line: ----------------------------------- */
 
 //Create a variable called "yourName". Assign it to the string or your first and last name.
 
-const myName = "Daniel Frehner";
 //
 //
 //

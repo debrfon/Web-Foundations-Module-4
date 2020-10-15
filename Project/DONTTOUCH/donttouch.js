@@ -307,7 +307,6 @@ function checkIfDone() {
       let password = document.querySelector(".passwordContainer");
       let passwordSpan = document.createElement("span");
       password.innerText = "The Password: ";
-      console.log(`${p}${a}${ss}${w}${o}${r}${d}`);
       passwordSpan.innerText = `${p}${a}${ss}${w}${o}${r}${d}`;
       password.appendChild(passwordSpan);
       alert(
@@ -315,7 +314,7 @@ function checkIfDone() {
       );
     } else {
       alert(
-        "You Have Completed the quiz, but you did not pass. Hit Refresh on your browser and try again!"
+        "You Have Completed the quiz, but you did not pass. Read the explanations on the questions your got wrong, hit Refresh on your browser, and try again!"
       );
     }
   }
